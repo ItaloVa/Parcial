@@ -1,0 +1,106 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-align: left;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Diseño de la pagina*/ 
+
+body {
+    background: #FFFFFF;
+    font-size: 100%;
+    text-align: center;
+}
+
+
+#wrap {width: 1800px; height: 1850px; background-color: #FFFFFF; margin: 0 auto; }
+#fondo {background: url("Imagenes/shutterstock_1424590880-scaled.jpg");height: 1080px; overflow: hidden}
+#t1 {font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; overflow: hidden;}
+#con {
+    width: 400px;
+    height: 200px;
+    background-color: #9FC673;
+    float: left;
+    margin: 400px 0px 1400px 1400px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    color: #FFFFFF;
+    font-weight: lighter;
+    overflow: hidden;
+    text-align: center;
+}
+#im {width: 350px;
+    height: 200px;background: url("Imagenes/Pequeño.jpg");margin: 0px 20px 1400px 1000px; transform: rotate(180deg); }
+#vid {width: 1800px ; height: 743px ; background: url("Imagenes/vid.jpg");overflow: hidden; margin: 0 0 0 0 }
+#vidi {width:560px ; height: 315px ;margin: 0 0 0 0 }
+#text1 {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    overflow: hidden;
+    background-color: #000000;
+    opacity: 0.8;
+    width: 600px;
+    height: auto;
+    font-size: 80px;
+    color: #FFFFFF;
+    margin: 50px 0 0 50px;
+    text-align: left; overflow: hidden
+}
+
+#text2 {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    overflow: hidden;
+    background-color: #000000;
+    opacity: 0.8;
+    width: 600px;
+    height: auto;
+    font-size: 80px;
+    color: #FFFFFF;
+    margin: 50px 0px 20px 1150px;
+    text-align: right; overflow: hidden
+}
